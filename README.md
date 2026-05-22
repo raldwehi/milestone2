@@ -105,3 +105,5 @@ The M2 spec lists `--executor-cores 2`. The course YARN cluster's maximum contai
 | Reema Aldwehi (`raldwehi`) | 1, 5, 11 | Crime-type DataFrame query; feature pipeline; spark-submit cluster mode |
 | Lujain Malharbi (`lujainalfaisal`) | 2, 6, 9 | Spark SQL hotspots; three-classifier comparison; local execution evidence |
 | Leen Althunayan (`L-alth`) | 3, 4, 7, 10 | Year trend; arrest rate; RF feature importances; yarn-client evidence |
+
+<!-- Lujain Malharbi contributions: Task 2 (Spark SQL location hotspots), Task 6 (three-classifier comparison), Task 9 (local execution evidence) -->
