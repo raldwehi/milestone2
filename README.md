@@ -107,3 +107,5 @@ The M2 spec lists `--executor-cores 2`. The course YARN cluster's maximum contai
 | Leen Althunayan (`L-alth`) | 3, 4, 7, 10 | Year trend; arrest rate; RF feature importances; yarn-client evidence |
 
 <!-- Lujain Malharbi contributions: Task 2 (Spark SQL location hotspots), Task 6 (three-classifier comparison), Task 9 (local execution evidence) -->
+
+<!-- Leen Althunayan contributions: Task 3 (year trend + chart), Task 4 (arrest-rate analysis), Task 7 (RF feature importances), Task 10 (yarn-client cluster execution) -->
