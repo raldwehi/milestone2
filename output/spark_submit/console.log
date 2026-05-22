@@ -1,0 +1,90 @@
+26/05/22 20:52:58 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/05/22 20:52:59 INFO DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at master-node/134.209.172.50:8032
+26/05/22 20:53:00 INFO Configuration: resource-types.xml not found
+26/05/22 20:53:00 INFO ResourceUtils: Unable to find 'resource-types.xml'.
+26/05/22 20:53:00 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (1536 MB per container)
+26/05/22 20:53:00 INFO Client: Will allocate AM container, with 1280 MB memory including 256 MB overhead
+26/05/22 20:53:00 INFO Client: Setting up container launch context for our AM
+26/05/22 20:53:00 INFO Client: Setting up the launch environment for our AM container
+26/05/22 20:53:00 INFO Client: Preparing resources for our AM container
+26/05/22 20:53:00 INFO Client: Uploading resource file:/opt/spark-3.5.4-bin-hadoop3/jars/kafka/commons-pool2-2.12.0.jar -> hdfs://master-node:9000/user/raldwehi/.sparkStaging/application_1778738889964_0120/commons-pool2-2.12.0.jar
+26/05/22 20:53:01 INFO Client: Uploading resource file:/opt/spark-3.5.4-bin-hadoop3/jars/kafka/kafka-clients-3.9.0.jar -> hdfs://master-node:9000/user/raldwehi/.sparkStaging/application_1778738889964_0120/kafka-clients-3.9.0.jar
+26/05/22 20:53:02 INFO Client: Uploading resource file:/opt/spark-3.5.4-bin-hadoop3/jars/kafka/spark-sql-kafka-0-10_2.12-3.5.4.jar -> hdfs://master-node:9000/user/raldwehi/.sparkStaging/application_1778738889964_0120/spark-sql-kafka-0-10_2.12-3.5.4.jar
+26/05/22 20:53:02 INFO Client: Uploading resource file:/opt/spark-3.5.4-bin-hadoop3/jars/kafka/spark-token-provider-kafka-0-10_2.12-3.5.4.jar -> hdfs://master-node:9000/user/raldwehi/.sparkStaging/application_1778738889964_0120/spark-token-provider-kafka-0-10_2.12-3.5.4.jar
+26/05/22 20:53:03 INFO Client: Uploading resource file:/home/raldwehi/m2_spark_ml.py -> hdfs://master-node:9000/user/raldwehi/.sparkStaging/application_1778738889964_0120/m2_spark_ml.py
+26/05/22 20:53:03 INFO Client: Uploading resource file:/opt/spark-3.5.4-bin-hadoop3/python/lib/pyspark.zip -> hdfs://master-node:9000/user/raldwehi/.sparkStaging/application_1778738889964_0120/pyspark.zip
+26/05/22 20:53:04 INFO Client: Uploading resource file:/opt/spark-3.5.4-bin-hadoop3/python/lib/py4j-0.10.9.7-src.zip -> hdfs://master-node:9000/user/raldwehi/.sparkStaging/application_1778738889964_0120/py4j-0.10.9.7-src.zip
+26/05/22 20:53:05 INFO Client: Uploading resource file:/tmp/spark-e264bbbd-02ac-4a1e-9d7e-4a9a210df1ef/__spark_conf__4774726841948037016.zip -> hdfs://master-node:9000/user/raldwehi/.sparkStaging/application_1778738889964_0120/__spark_conf__.zip
+26/05/22 20:53:05 INFO SecurityManager: Changing view acls to: raldwehi
+26/05/22 20:53:05 INFO SecurityManager: Changing modify acls to: raldwehi
+26/05/22 20:53:05 INFO SecurityManager: Changing view acls groups to: 
+26/05/22 20:53:05 INFO SecurityManager: Changing modify acls groups to: 
+26/05/22 20:53:05 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: raldwehi; groups with view permissions: EMPTY; users with modify permissions: raldwehi; groups with modify permissions: EMPTY
+26/05/22 20:53:05 INFO Client: Submitting application application_1778738889964_0120 to ResourceManager
+26/05/22 20:53:05 INFO YarnClientImpl: Submitted application application_1778738889964_0120
+26/05/22 20:53:07 INFO Client: Application report for application_1778738889964_0120 (state: ACCEPTED)
+26/05/22 20:53:07 INFO Client: 
+	 client token: N/A
+	 diagnostics: [Fri May 22 20:53:05 +0000 2026] Application is added to the scheduler and is not yet activated. Queue's AM resource limit exceeded.  Details : AM Partition = <DEFAULT_PARTITION>; AM Resource Request = <memory:1280, vCores:1>; Queue Resource Limit for AM = <memory:512, vCores:1>; User AM Resource Limit of the queue = <memory:512, vCores:1>; Queue AM Resource Usage = <memory:768, vCores:1>; 
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: root.default
+	 start time: 1779483185969
+	 final status: UNDEFINED
+	 tracking URL: http://master-node:8088/proxy/application_1778738889964_0120/
+	 user: raldwehi
+26/05/22 20:53:37 INFO Client: Application report for application_1778738889964_0120 (state: ACCEPTED)
+26/05/22 20:54:07 INFO Client: Application report for application_1778738889964_0120 (state: ACCEPTED)
+26/05/22 20:54:37 INFO Client: Application report for application_1778738889964_0120 (state: ACCEPTED)
+26/05/22 20:55:07 INFO Client: Application report for application_1778738889964_0120 (state: ACCEPTED)
+26/05/22 20:55:37 INFO Client: Application report for application_1778738889964_0120 (state: ACCEPTED)
+26/05/22 20:56:07 INFO Client: Application report for application_1778738889964_0120 (state: ACCEPTED)
+26/05/22 20:56:37 INFO Client: Application report for application_1778738889964_0120 (state: ACCEPTED)
+26/05/22 20:57:07 INFO Client: Application report for application_1778738889964_0120 (state: ACCEPTED)
+26/05/22 20:57:37 INFO Client: Application report for application_1778738889964_0120 (state: ACCEPTED)
+26/05/22 20:58:07 INFO Client: Application report for application_1778738889964_0120 (state: ACCEPTED)
+26/05/22 20:58:37 INFO Client: Application report for application_1778738889964_0120 (state: ACCEPTED)
+26/05/22 20:59:07 INFO Client: Application report for application_1778738889964_0120 (state: ACCEPTED)
+26/05/22 20:59:37 INFO Client: Application report for application_1778738889964_0120 (state: ACCEPTED)
+26/05/22 21:00:07 INFO Client: Application report for application_1778738889964_0120 (state: ACCEPTED)
+26/05/22 21:00:38 INFO Client: Application report for application_1778738889964_0120 (state: ACCEPTED)
+26/05/22 21:01:08 INFO Client: Application report for application_1778738889964_0120 (state: ACCEPTED)
+26/05/22 21:01:38 INFO Client: Application report for application_1778738889964_0120 (state: ACCEPTED)
+26/05/22 21:02:08 INFO Client: Application report for application_1778738889964_0120 (state: ACCEPTED)
+26/05/22 21:02:38 INFO Client: Application report for application_1778738889964_0120 (state: ACCEPTED)
+26/05/22 21:03:08 INFO Client: Application report for application_1778738889964_0120 (state: ACCEPTED)
+26/05/22 21:03:38 INFO Client: Application report for application_1778738889964_0120 (state: ACCEPTED)
+26/05/22 21:03:49 INFO Client: Application report for application_1778738889964_0120 (state: RUNNING)
+26/05/22 21:03:49 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: worker-node-2
+	 ApplicationMaster RPC port: 44101
+	 queue: root.default
+	 start time: 1779483185969
+	 final status: UNDEFINED
+	 tracking URL: http://master-node:8088/proxy/application_1778738889964_0120/
+	 user: raldwehi
+26/05/22 21:04:19 INFO Client: Application report for application_1778738889964_0120 (state: RUNNING)
+26/05/22 21:04:49 INFO Client: Application report for application_1778738889964_0120 (state: RUNNING)
+26/05/22 21:05:19 INFO Client: Application report for application_1778738889964_0120 (state: RUNNING)
+26/05/22 21:05:49 INFO Client: Application report for application_1778738889964_0120 (state: RUNNING)
+26/05/22 21:06:19 INFO Client: Application report for application_1778738889964_0120 (state: RUNNING)
+26/05/22 21:06:49 INFO Client: Application report for application_1778738889964_0120 (state: RUNNING)
+26/05/22 21:07:19 INFO Client: Application report for application_1778738889964_0120 (state: RUNNING)
+26/05/22 21:07:49 INFO Client: Application report for application_1778738889964_0120 (state: RUNNING)
+26/05/22 21:08:19 INFO Client: Application report for application_1778738889964_0120 (state: RUNNING)
+26/05/22 21:08:34 INFO Client: Application report for application_1778738889964_0120 (state: FINISHED)
+26/05/22 21:08:34 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: worker-node-2
+	 ApplicationMaster RPC port: 44101
+	 queue: root.default
+	 start time: 1779483185969
+	 final status: SUCCEEDED
+	 tracking URL: http://master-node:8088/proxy/application_1778738889964_0120/
+	 user: raldwehi
+26/05/22 21:08:34 INFO ShutdownHookManager: Shutdown hook called
+26/05/22 21:08:34 INFO ShutdownHookManager: Deleting directory /tmp/spark-d521f7df-0652-4244-bcb4-b8f1398cb244
+26/05/22 21:08:34 INFO ShutdownHookManager: Deleting directory /tmp/spark-e264bbbd-02ac-4a1e-9d7e-4a9a210df1ef
